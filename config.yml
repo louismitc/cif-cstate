@@ -49,7 +49,7 @@ params:
         video. It is reliant on our CDN.
       category: Uncategorized
   dateFormat: January 2, 2006 at 3:04 PM UTC
-  brand: "#0a0c0f"
+  brand: "#000"
   enableLastMod: true
   headerTextColor: white
   logo: /img/cif-google.jpg
