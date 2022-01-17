@@ -58,7 +58,7 @@ params:
   categories:
     - closed: true
       name: Operational
-      untitled: false
+      untitled: true
   description: "we continuously monitor the status of our sites and services and
     if there are any interruptions, we'll let you know here. "
   enableCustomHTML: true
