@@ -59,7 +59,7 @@ params:
     - closed: true
       name: Operational
       untitled: false
-  description: We continuously monitor the status of our services and if there are
-    any interruptions, a note will be posted here.
+  description: "we continuously monitor the status of our sites and services and
+    if there are any interruptions, we'll let you know here. "
   enableCustomHTML: true
   useLargeHeaderDesign: false
