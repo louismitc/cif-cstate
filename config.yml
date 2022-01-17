@@ -37,17 +37,8 @@ params:
   shortDateFormat: 15:04 UTC — Jan 2
   down: "#e60000"
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and
-        video. It is reliant on our CDN.
-      category: Uncategorized
+    - name: Website
+      category: Operational
   dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#fff"
   enableLastMod: true
@@ -55,6 +46,7 @@ params:
   logo: /img/cif-google.jpg
   incidentPostsPerPage: 10
   googleAnalytics: UA-00000000-1
+  customTabs: []
   alwaysKeepBrandColor: true
   disableComplexCalculations: false
   useLogo: true
@@ -64,12 +56,9 @@ params:
   disableIncidentHistory: false
   ok: "#008000"
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: Empty Category
-    - name: Uncategorized
-      untitled: true
+    - closed: true
+      name: Operational
+      untitled: false
   description: We continuously monitor the status of our services and if there are
     any interruptions, a note will be posted here.
   enableCustomHTML: true
